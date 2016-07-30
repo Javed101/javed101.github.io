@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Neeraj Singh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="Description" content="Front-end Developer, Web Designer, Neeraj Singh, Freeliance Web Designer, Freeliance Front-end Developer">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 text-center m-t-60">
+            <div id="about"></div>
+
+
+        </div>
+        <div class="col-md-6 text-center p">
+            <img src="img/myAvatar.png" alt="" class="img-responsive img-circle">
+            <a href="/img/updated-resume.pdf" target="_blank"><h3>See Resume</h3></a>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+<span id="typed-cursor"></span>
+
+<script>
+    $(function(){
+        $("#about").typed({
+            strings: ["<h1><strong>Hi <br> My name is <mark> Neeraj,</mark><br> I'm  <mark>Web Designer</mark> And <br><mark>Front-end Developer</mark> Based out of Delhi ,India.</strong></h1>"],
+            typeSpeed: 10,
+            startDelay:0,
+            backDelay: 2000,
+            loop: false,
+            showCursor:false,
+            backSpeed: -10000000000,
+            onStringTyped: function() {
+                 },
+        });
+
+
+    });
+</script>
+
+
+
+</body>
+
+
+
+</html>
+
